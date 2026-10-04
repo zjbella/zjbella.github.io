@@ -1,28 +1,26 @@
 ---
 layout: page
-title: 关于
-subtitle: 记录生活，记录你
-keywords: 关于,雾水
-comments: true
-menu: 关于
-permalink: /about/
+title: 杂碎
+keywords: zjbella
+comments: false
+menu: 杂碎
+permalink: /random/
 ---
 
-天生我材必有用，千金散尽还复来。
+我读过最震撼的一句口号,是:
+> 为天地立心,为生民立命,为往圣继绝学,为万世开太平.
 
-这里是 **雾水** —— 写代码、看电影，也记录一些半夜想通的小事。像雾、像雨、又像风，慢慢沉淀。
+我满想将它直落落写在这里,可是又自惭形秽,愧不敢当.正所谓高山仰止.
 
-## 联系
+因此我所希望的,就只是那句"仰不愧于天,俯不怍于人."
 
+人生俯仰之间,忽然而已.得志,与民由之; 不得志,独行其道.
+
+后之览者,亦将有感于斯文.
+
+## 爱好
 <ul>
-{% for website in site.data.social %}
-<li>{{ website.sitename }}：<a href="{{ website.url }}" target="_blank" rel="noopener">@{{ website.name }}</a></li>
-{% endfor %}
+    <li> 运动(足球,徒步,篮球,骑行)</li> 
+    <li> 阅读(历史,武侠,散文)</li> 
+    <li> 旅行(美食,访古,山野)</li> 
 </ul>
-
-## 技能关键词
-
-{% for skill in site.data.skills %}
-### {{ skill.name }}
-<p class="chips">{% for keyword in skill.keywords %}<span class="tag">{{ keyword }}</span>{% endfor %}</p>
-{% endfor %}

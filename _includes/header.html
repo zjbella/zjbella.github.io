@@ -12,10 +12,9 @@
       document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='light';}})();
     </script>
 
-    <!-- 字体：霞鹜文楷（文艺水墨标题），失败优雅回退宋体 -->
+    <!-- 字体：宋体 -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.css"></noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.css">
 
     {% assign asset_v = site.time | date: '%s' %}
     <link rel="stylesheet" href="/assets/css/shuimo.css?v={{ asset_v }}">
